@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Video</title>
+  <link rel="stylesheet" href="stil.css">
+
+  <style>
+    nav {
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav li {
+      display: inline-block;
+    }
+
+    iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(36, 24, 56, 0.5);
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="vjezbe.html">Galerija</a></li>
+    </ul>
+  </nav>
+
+  <div class="okvir">
+    <h1>
+      <img class="center" src="projekti/video.png" alt="naslov">
+    </h1>
+    <h2>Za Nelu.</h2>
+
+    <iframe 
+      src="https://www.youtube.com/embed/bJ-qUalop6E" 
+      title="Za Nelu." 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>
